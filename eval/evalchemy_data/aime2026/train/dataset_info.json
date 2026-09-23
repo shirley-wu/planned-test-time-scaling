@@ -1,0 +1,46 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "aime_2026",
+  "dataset_size": 12299,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/MathArena/aime_2026@46b2f075d973769096cbd5480ff7d0aba0184090/data/train-00000-of-00001.parquet": {
+      "num_bytes": 10065,
+      "checksum": null
+    }
+  },
+  "download_size": 10065,
+  "features": {
+    "problem_idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 22364,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 12299,
+      "num_examples": 30,
+      "dataset_name": "aime_2026"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
